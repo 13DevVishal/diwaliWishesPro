@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: salsa,cursive;
+}
+
+.design {
+    width: 300px;
+}
+
+
+.hero-section {
+    /* min-width: 100vw; */
+    /* min-height: 90vh; */
+    background-image: url('images/orange-backdrop\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-section p {
+    font-size: 46px;
+    font-weight: 400;
+    max-width: 42rem;
+    margin-left: 15rem;
+}
+
+
+.section2 {
+    background-color: #F99501;
+    padding-inline: 1em;
+}
+.section2 img {
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+}
+
+.hori-divider {
+    background-color: #F99501;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+    padding: 8px 8px 8px 8px;
+}
+
+.circle {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+
+.hori-lines {
+    height: 2px;
+    width: 468px;
+    background-color: wheat;
+}
+
+.section2 h2 , .section3 h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: style script,serif;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.white-card {
+    background-color: white;
+    font-size: 1.6rem;
+    max-width: 700px;
+    height: 100%;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-left: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.card-container img {
+    width:400px;
+    height: auto;
+    margin-left: -140px;
+}
+
+.last1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-inline: auto;
+}
+.last1 img {
+    width: 45%;
+
+}
+.section3 {
+    background-color: #F99501;
+}
+
+.section3 p {
+    font-size: 30px;
+    /* margin-left: 20px; */
+}
+.section3 h2 {
+    display: inline;
+    /* margin-left: 40px; */
+}
+
+.ending{
+    /* padding-left: 270px; */
+    text-align: center;
+}
+
+
+@media (max-width: 840px) {
+    .first-deepak {
+        display: block;
+        margin-left: auto;
+        /* padding: auto; */
+    }
+    .second-deepak{
+        display: none;
+    }
+    .hero-section p {
+        margin-left: 1rem;
+        font-size: 32px;
+    }
+}
+
+@media (max-width:450px) {
+    .first-deepak{
+        width: 100%;
+    }
+    .hero-section p {
+        font-size: 24px;
+    }
+    .white-card {
+        font-size: 1.25rem;
+        padding: 0;
+        padding-left: 0;
+    }
+    .card-container img {
+        width: 120px;
+        margin-left: 0;
+    }
+    .white-card {
+        font-size: 16px;
+    }
+    .ending{
+        padding-left: 0px;
+    }
+}
+@media (max-width:450px) {
+    .section2 h2 {
+        font-size: 25px;
+    } 
+
+}
